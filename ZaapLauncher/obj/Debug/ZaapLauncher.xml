@@ -1,0 +1,109 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ZaapLauncher
+</name>
+</assembly>
+<members>
+<member name="T:ZaapLauncher.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ZaapLauncher.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ZaapLauncher.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Connect(System.String,System.Int32)">
+ <summary>
+ Connecte le socket à un hôte distant
+ </summary>
+ <param name="RemoteHost">L'hôte auquel on se connecte</param>
+ <param name="RemotePort">Le port sur lequel on se connecte</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Connect">
+ <summary>
+ Connecte le socket en utilisant le LocalEP et RemoteEP du socket
+ </summary>
+ <remarks>Vous devez renseigner les propriétés LocalEP et RemoteEP du socket avant d'utiliser cette Methode</remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Connect(System.Net.IPEndPoint)">
+ <summary>
+ Connecte le socket à un hôte distant
+ </summary>
+ <param name="RemoteEP">Adresse sur laquelle on se connecte</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Connect(System.Net.IPEndPoint,System.Net.IPEndPoint)">
+ <summary>
+ Connecte le socket à un hôte distant
+ </summary>
+ <param name="LocalEP">Adresse sur laquelle on Bind le socket</param>
+ <param name="RemoteEP">Adresse sur laquelle on se connecte</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Disconnect">
+ <summary>
+ Ferme la conexion actuel.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Close">
+ <summary>
+ Ferme la conexion actuel. Le socket est ensuite inutilisable
+ </summary>
+ <remarks>N'essayez pas de réutiliser le socket apres avoir appeler cette methode</remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Listen">
+ <summary>
+ Met le socket en écoute en utilisant le LocalEP
+ </summary>
+ <remarks>Vous devez renseigner la prorpiété LocalEP avant d'appeler cette methode</remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Listen(System.String,System.Int32)">
+ <summary>
+ Met le socket en écoute
+ </summary>
+ <param name="LocalIP">Addresse sur laquelle on écoute</param>
+ <param name="LocalPort">Port sur lequel on ecoute</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Listen(System.Int32)">
+ <summary>
+ Met le socket en écoute sur toute les addresse de la machine
+ </summary>
+ <param name="LocalPort">Port sur lequel on écoute</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Listen(System.Net.IPEndPoint)">
+ <summary>
+ Met le socket en écoute
+ </summary>
+ <param name="LocalEP">EndPoint sur lequel on écoute</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Send(System.Byte[])">
+ <summary>
+ Envoie des données à travers le socket
+ </summary>
+ <param name="data">Tableau de byte à envoyer</param>
+ <remarks></remarks>
+</member>
+<member name="M:ZaapLauncher.BazSocket.Send(System.String)">
+ <summary>
+ Envoie des données à travers le socket
+ </summary>
+ <param name="data">Chaine de caractere à envoyer</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

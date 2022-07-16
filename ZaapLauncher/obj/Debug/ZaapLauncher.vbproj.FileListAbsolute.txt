@@ -1,0 +1,13 @@
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\bin\Debug\ZaapLauncher.exe.config
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\bin\Debug\ZaapLauncher.exe
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\bin\Debug\ZaapLauncher.pdb
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\bin\Debug\ZaapLauncher.xml
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.vbproj.AssemblyReference.cache
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.Resources.resources
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.vbproj.GenerateResource.cache
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.vbproj.CoreCompileInputs.cache
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.exe
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.xml
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.pdb
+C:\Users\Raphael\source\repos\ZaapLauncher\ZaapLauncher\obj\Debug\ZaapLauncher.Zaap.resources
